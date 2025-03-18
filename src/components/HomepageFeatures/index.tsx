@@ -36,7 +36,7 @@ export default function MapComponent(): JSX.Element {
             >
                 <FontAwesomeIcon 
                   icon={faMapMarkerAlt} 
-                  size="xs" 
+                  size="2x" 
                   style={{color: "#f70202",}} 
                   />
             </Marker>
