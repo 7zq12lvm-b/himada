@@ -76,11 +76,6 @@ export default function MapComponent(): JSX.Element {
                   longitude={city.longitude} 
                   latitude={city.latitude}
                   anchor="bottom"
-                  popup={{
-                    closeButton: false,
-                    closeOnClick: true,
-                    content: city.name
-                  }}
                 >
                   <div className={styles.markerTooltip}>
                     <FontAwesomeIcon 
