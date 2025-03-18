@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Map, { NavigationControl } from 'react-map-gl';
+import Map, { NavigationControl } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import styles from './styles.module.css';
 
