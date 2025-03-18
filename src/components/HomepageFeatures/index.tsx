@@ -20,6 +20,7 @@ const cities = [
   { name: '洛阳', longitude: 112.4540, latitude: 34.6197 },
   { name: '西宁', longitude: 101.7787, latitude: 36.6176 },
   { name: '济南', longitude: 117.1201, latitude: 36.6512 },
+  { name: '武汉', longitude: 114.3055, latitude: 30.5928 },
   { name: '青岛', longitude: 120.3825, latitude: 36.0671 },
   { name: '泰安', longitude: 117.1290, latitude: 36.1944 },
   { name: '无锡', longitude: 120.3016, latitude: 31.5728 },
