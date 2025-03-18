@@ -26,21 +26,23 @@ export default function MapComponent(): JSX.Element {
               mapStyle="mapbox://styles/mapbox/streets-v11"
               style={{ width: '100%', height: '100%' }}
             >
-              <Marker 
-                longitude={121.4737} 
-                latitude={31.2304} 
-                anchor="bottom"
-              >
-                <div className={styles.markerPin}>
-                  <span className={styles.markerLabel}>上海</span>
-                </div>
-              </Marker>
+            <Marker 
+              longitude={121.4737} 
+              latitude={31.2304}
+              anchor="bottom"
+            >
+              <div className={styles.locationMarker}>
+                <div className={styles.locationPin}></div>
+                <span className={styles.markerLabel}>上海</span>
+              </div>
+            </Marker>
+
 
               <NavigationControl position="top-right" />
               {/* 这里后续可以添加标记个人足迹的Marker组件 */}
             </Map>
           </div>
-          <p className={styles.mapDescription}>这是我的世界旅行足迹，每个标记代表一个我曾经到访过的地方。</p>
+          {/* <p className={styles.mapDescription}>这是我的世界旅行足迹，每个标记代表一个我曾经到访过的地方。</p> */}
         </div>
       </div>
     </section>
