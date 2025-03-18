@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 在文件末尾添加 */
+/* Mapbox styles */
+.mapboxgl-map {
+  font-family: var(--ifm-font-family-base);
+}
+
+.mapboxgl-popup-content {
+  padding: 12px;
+  border-radius: 6px;
+}

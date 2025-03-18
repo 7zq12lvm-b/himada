@@ -5,7 +5,29 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.mapContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.mapTitle {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.mapWrapper {
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.mapDescription {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: var(--ifm-font-color-base);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
