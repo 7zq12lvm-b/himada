@@ -11,9 +11,9 @@ const MAPBOX_TOKEN = 'pk.eyJ1Ijoia29tb3JlYmkyNzgiLCJhIjoiY203Zm9jYWgyMHJqZDJrb28
 
 export default function MapComponent(): JSX.Element {
   const [viewState, setViewState] = useState({
-    longitude: 0,
-    latitude: 20,
-    zoom: 1.5
+    longitude: 75.9898,
+    latitude: 39.4704,
+    zoom: 4
   });
 
   return (
