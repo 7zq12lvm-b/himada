@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Map, { NavigationControl,Marker  } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import styles from './styles.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 // 需要替换为你的Mapbox访问令牌
 const MAPBOX_TOKEN = 'pk.eyJ1Ijoia29tb3JlYmkyNzgiLCJhIjoiY203Zm9jYWgyMHJqZDJrb281cWxkaWdwZyJ9.lHT9yV8z2ED5kVbVrOjflw';  // 请替换为你的Mapbox访问令牌
@@ -31,14 +34,14 @@ export default function MapComponent(): JSX.Element {
               latitude={31.2304}
               anchor="bottom"
             >
-              <div className={styles.locationMarker}>
-                <div className={styles.locationPin}></div>
-                <span className={styles.markerLabel}>上海</span>
-              </div>
+                <FontAwesomeIcon 
+                  icon={faMapMarkerAlt} 
+                  size="xs" 
+                  style={{color: "#f70202",}} 
+                  />
             </Marker>
 
-
-              <NavigationControl position="top-right" />
+            <NavigationControl position="top-right" />
               {/* 这里后续可以添加标记个人足迹的Marker组件 */}
             </Map>
           </div>
