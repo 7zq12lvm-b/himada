@@ -13,7 +13,7 @@ export default function MapComponent(): JSX.Element {
   const [viewState, setViewState] = useState({
     longitude: 75.9898,
     latitude: 39.4704,
-    zoom: 4
+    zoom: 3
   });
 
   return (
@@ -26,7 +26,8 @@ export default function MapComponent(): JSX.Element {
               mapboxAccessToken={MAPBOX_TOKEN}
               initialViewState={viewState}
               onMove={evt => setViewState(evt.viewState)}
-              mapStyle="mapbox://styles/mapbox/streets-v11"
+              mapStyle="mapbox://styles/mapbox/streets-v11?language=zh"
+              locale={{ 'NavigationControl.ZoomIn': '放大', 'NavigationControl.ZoomOut': '缩小' }}  // 控件翻译
               style={{ width: '100%', height: '100%' }}
             >
             <Marker 
