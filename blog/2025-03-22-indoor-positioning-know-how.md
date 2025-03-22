@@ -2,7 +2,7 @@
 slug: indoor-positioning-know-how
 title: neXenio/BLE-Indoor-Positioning库的定位策略
 authors: mingqiang
-tags: [indoor positioning, bluetooth]
+tags: [Indoor Positioning, Bluetooth, Claude]
 ---
 
 # Java 库定位策略分析
