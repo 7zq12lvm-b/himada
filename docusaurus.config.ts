@@ -70,13 +70,13 @@ const config: Config = {
         //   position: 'left',
         //   label: 'Tutorial',
         // },
-        // {
-        //   type: 'docSidebar',
-        //   label: '筑基灵液',
-        //   sidebarId: 'basicSidebar',
-        //   position: 'left',
-        // },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          label: '📗Wiki',
+          sidebarId: 'mainSidebar',
+          position: 'right',
+        },
+        {to: '/blog', label: '👨🏻‍💻Blog', position: 'right'},
       ],
     },
     // footer: {
