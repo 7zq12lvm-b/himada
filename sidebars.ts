@@ -1,6 +1,7 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 /**
+ * Sidebar是仅限于Doc的概念，Blog是Docusaurus的另一个概念。
  * Creating a sidebar enables you to:
  - create an ordered group of docs
  - render a sidebar for each doc of that group
