@@ -4,4 +4,4 @@ title: Markdown Emoji输入方法
 authors: mingqiang
 tags: [Markdown]
 ---
-![Emoji](files/emoji-input.png)
+![Emoji](https://picgo-1257118722.cos.ap-beijing.myqcloud.com/emoji-input.png)
