@@ -128,7 +128,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    plugins: [require.resolve('docusaurus-plugin-image-zoom')],
+    plugins: [require.resolve('image-zoom')],
     zoom: {
       selector: '.markdown img',
       background: {
