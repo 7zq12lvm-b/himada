@@ -53,7 +53,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  plugins: [require.resolve('docusaurus-plugin-image-zoom')],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -128,7 +128,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    plugins: [require.resolve('image-zoom')],
+    
     zoom: {
       selector: '.markdown img',
       background: {
