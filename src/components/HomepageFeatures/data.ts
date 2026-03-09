@@ -38,5 +38,26 @@ export const cities = [
     { name: '哈尔滨', longitude: 126.6433, latitude: 45.7563 },
     { name: '七台河', longitude: 131.0033, latitude: 45.7705 },
     { name: '海参崴', longitude: 131.8869, latitude: 43.1198 }, // 俄罗斯城市
-    { name: '冲绳那霸', longitude: 127.6791, latitude: 26.2130 } // 日本城市
+    { name: '冲绳那霸', longitude: 127.6791, latitude: 26.2130 }, // 日本城市
+    { name: '巴黎', longitude: 2.3522, latitude: 48.8566 },
+    { name: '罗马', longitude: 12.4964, latitude: 41.9028 },
+    { name: '伊斯坦布尔', longitude: 28.9784, latitude: 41.0082 },
+    { name: '平遥', longitude: 112.1757, latitude: 37.1897 },
+    { name: '塔什干', longitude: 69.2401, latitude: 41.2995 },
+    { name: '布哈拉', longitude: 64.4200, latitude: 39.7679 },
+    { name: '希瓦Khiva', longitude: 60.3639, latitude: 41.3783 },
+    { name: '撒马尔罕', longitude: 66.9597, latitude: 39.6542 },
+    { name: '河内', longitude: 105.8342, latitude: 21.0278 },
+    { name: '胡志明', longitude: 106.6297, latitude: 10.8231 },
+    { name: '吉隆坡', longitude: 101.6869, latitude: 3.1390 },
+    { name: '槟城', longitude: 100.3354, latitude: 5.4141 },
+    { name: '丽江', longitude: 100.2330, latitude: 26.8721 },
+    { name: '沈阳', longitude: 123.4315, latitude: 41.8057 },
+    { name: '巴库', longitude: 49.8671, latitude: 40.4093 },
+    { name: '卡萨布兰卡', longitude: -7.5898, latitude: 33.5731 },
+    { name: '马拉加', longitude: -4.4214, latitude: 36.7213 },
+    { name: '塞维利亚', longitude: -5.9845, latitude: 37.3891 },
+    { name: '科尔多瓦', longitude: -4.7794, latitude: 37.8882 },
+    { name: '直布罗陀', longitude: -5.3536, latitude: 36.1408 },
+    { name: '格拉纳达', longitude: -3.5986, latitude: 37.1773 }
 ];
