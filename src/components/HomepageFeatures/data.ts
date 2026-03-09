@@ -73,5 +73,9 @@ export const cities = [
     { name: '上海', longitude: 121.4737, latitude: 31.2304 },
     { name: '扬州', longitude: 119.4210, latitude: 32.3932 },
     { name: '二连浩特', longitude: 111.9640, latitude: 43.6530 },
-    { name: '嘉峪关', longitude: 98.2890, latitude: 39.7731 }
+    { name: '嘉峪关', longitude: 98.2890, latitude: 39.7731 },
+    { name: '佳木斯市', longitude: 130.3616, latitude: 46.8096 },
+    { name: '饶河县', longitude: 134.0205, latitude: 46.8013 },
+    { name: '俄罗斯Bikin', longitude: 134.2500, latitude: 46.8167 },
+    { name: '努库斯', longitude: 59.6103, latitude: 42.4602 }
 ];
