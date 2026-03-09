@@ -59,5 +59,19 @@ export const cities = [
     { name: '塞维利亚', longitude: -5.9845, latitude: 37.3891 },
     { name: '科尔多瓦', longitude: -4.7794, latitude: 37.8882 },
     { name: '直布罗陀', longitude: -5.3536, latitude: 36.1408 },
-    { name: '格拉纳达', longitude: -3.5986, latitude: 37.1773 }
+    { name: '格拉纳达', longitude: -3.5986, latitude: 37.1773 },
+    { name: '悉尼', longitude: 151.2093, latitude: -33.8688 },
+    { name: '墨尔本', longitude: 144.9631, latitude: -37.8136 },
+    { name: '布里斯班', longitude: 153.0251, latitude: -27.4698 },
+    { name: '黄金海岸', longitude: 153.4300, latitude: -28.0167 },
+    { name: '阿德莱德', longitude: 138.6007, latitude: -34.9285 },
+    { name: '霍巴特', longitude: 147.3272, latitude: -42.8821 },
+    { name: '布鲁尼岛', longitude: 147.3000, latitude: -43.3500 },
+    { name: '亚瑟港', longitude: 147.8500, latitude: -43.1500 },
+    { name: '贵阳', longitude: 106.6302, latitude: 26.6470 },
+    { name: '重庆', longitude: 106.5516, latitude: 29.5630 },
+    { name: '上海', longitude: 121.4737, latitude: 31.2304 },
+    { name: '扬州', longitude: 119.4210, latitude: 32.3932 },
+    { name: '二连浩特', longitude: 111.9640, latitude: 43.6530 },
+    { name: '嘉峪关', longitude: 98.2890, latitude: 39.7731 }
 ];
